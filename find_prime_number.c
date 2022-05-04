@@ -28,6 +28,8 @@ int main() {
     scanf("%d", &size);
     int num[size];
     
+    // 다른 문자의 입력으로 인해 for문이 돌아감.
+    // 이를테면 공백문자나 줄바꿈 문자.
     for(int i = 0; i < size; i++) {
         scanf("%d", &num[i]);
     }
